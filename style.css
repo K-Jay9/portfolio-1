@@ -71,6 +71,9 @@
     }
     .serve-photo{
         border-radius: 100%;
+        background-color: transparent;
+        height: 3rem;
+        padding: 2rem;
 
         width: 25%;
     }
