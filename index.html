@@ -7,6 +7,8 @@
 
     <!-- The css link -->
     <link rel="stylesheet" href="style.css">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
     <title>Portfolio</title>
 </head>
@@ -20,63 +22,69 @@
     </nav>
 
     <!-- About section -->
-    <div class="title">
-        ABOUT ME
-    </div>
-    <div class="about">
-        <div class="me">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore pariatur magnam excepturi voluptatem fuga eveniet.</p>
+    <section class="scrollspy" id="About">
+        <div class="title">
+            ABOUT ME
         </div>
-        <div class="me">
-            <img src="images/porftolio.jpeg" alt="My Photo">
+        <div class="about">
+            <div class="me">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore pariatur magnam excepturi voluptatem fuga eveniet.</p>
+            </div>
+            <div class="me">
+                <img src="images/porftolio.jpeg" alt="My Photo">
+            </div>
         </div>
-    </div>
+    </section>
 
     <!-- Services section -->
-    <div class="title service">
-        SERVICES
-    </div>
-    <div class="services">
-        <div class="card">
-            <h5>Data Entry</h5>
-            <div class="serve">
-                <img class="serve-photo" src="images/data.png" alt="alter">
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <section class="scrollspy" id="Services">
+        <div class="title service">
+            SERVICES
+        </div>
+        <div class="services">
+            <div class="card">
+                <h5>Data Entry</h5>
+                <div class="serve">
+                    <img class="serve-photo" src="images/data.png" alt="alter">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="card">
+                <h5>Report Writing</h5>
+                <div class="serve">
+                    <img class="serve-photo" src="images/report.png" alt="alter">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="card">
+                <h5>Record Management</h5>
+                <div class="serve">
+                    <img class="serve-photo" src="images/records.png" alt="alter">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="card">
+                <h5>Clerical Work</h5>
+                <div class="serve">
+                    <img class="serve-photo" src="images/clerical.png" alt="alter">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
             </div>
         </div>
-        <div class="card">
-            <h5>Report Writing</h5>
-            <div class="serve">
-                <img class="serve-photo" src="images/report.png" alt="alter">
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
-        </div>
-        <div class="card">
-            <h5>Record Management</h5>
-            <div class="serve">
-                <img class="serve-photo" src="images/records.png" alt="alter">
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
-        </div>
-        <div class="card">
-            <h5>Clerical Work</h5>
-            <div class="serve">
-                <img class="serve-photo" src="images/clerical.png" alt="alter">
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
-        </div>
-    </div>
+    </section>
 
     <!-- Contact section -->
-    <div class="title">
-        CONTACT ME
-    </div>
-    <div class="contact">
-        <div class="details">
-            <p>EMAIL: Example@website.com </p>
-            <p>PHONE: 0712 345 678</p>    
+    <section class="scrollspy" id="Contact">
+        <div class="title">
+            CONTACT ME
         </div>
-    </div>
+        <div class="contact">
+            <div class="details">
+                <p>EMAIL: Example@website.com </p>
+                <p>PHONE: 0712 345 678</p>    
+            </div>
+        </div>
+    </section>
 
     <!-- footer section -->
     <div class="social">
@@ -88,6 +96,9 @@
 
     <!-- copyright section -->
     <p class="copy">@Areng2021</p>
+
+
+    <script src="index.js"></script>
     
 </body>
 </html>
