@@ -1,2 +1,5 @@
 # portfolio-1
-project 1 on creating a portfolio.
+
+A portfolio website designed using vanilla CSS and HTML.
+
+![The website design](images/website.png)
