@@ -1,0 +1,108 @@
+.body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* Mobile css */
+@media screen {
+    /* home section */
+    nav{
+        display: flex;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        background-color: rgb(44, 43, 43);
+        border: solid red;
+    }
+    .nav-menu{
+        flex-direction: column;
+        margin: 0.2rem;
+        color: white;
+        letter-spacing: 0.1mm;
+        text-align: center;
+        width: 25%;
+
+        border: solid green;
+    }
+    /* about section */
+    .title{
+        padding: 1.2rem;
+        text-align: center;
+        letter-spacing: 0.1mm;
+    }
+
+    .about{
+        display: flex;
+
+        border: solid orange;
+    }
+    .me{
+        width: 50%;
+
+        border: solid blue;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    /*  services section */
+
+    .service{
+        background-color:rgb(44, 43, 43) ;
+        color: white;
+    }
+    .card{
+        padding-top: 0.8rem;
+        margin-bottom: 1.2rem;
+        background-color: rgb(44, 43, 43);
+        color: white;
+        
+        border: solid 2px whitesmoke;
+
+    }
+    .card h5{
+        text-align: center;
+        font-weight: bold;
+    }
+    .serve{
+        display: flex;
+        border: solid yellowgreen;
+        width: 100%;
+    }
+    .serve-photo{
+        border-radius: 100%;
+
+        width: 25%;
+    }
+    .serve p{
+        padding-left: 1.2em;
+        width: 75%;
+    }
+
+    /* contact section */
+    .details{
+        font-family: cursive;
+        text-indent: 25%;
+        letter-spacing: 0.2mm;
+    }
+
+    /* footer section */
+    .social{
+        display: flex;
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .page{
+        width: 50%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        height: 3rem;
+    }
+
+    /* copyright section */
+    .copy{
+        padding-top: 2rem;
+        font-size: 0.8em;
+        font-weight: lighter;
+    }
+}
